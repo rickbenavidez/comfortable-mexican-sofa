@@ -37,3 +37,6 @@
 //= require comfy/admin/cms/wysiwyg
 
 //= require comfy/admin/cms/custom
+
+//= require("trix")
+//= require("@rails/actiontext")
