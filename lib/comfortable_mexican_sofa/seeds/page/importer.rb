@@ -192,7 +192,7 @@ module ComfortableMexicanSofa::Seeds::Page
         {
           io:           file_handler,
           filename:     filename,
-          content_type: MimeMagic.by_magic(file_handler)
+          content_type: Marcel::MimeType.for(file_handler)
         }
       end
 
